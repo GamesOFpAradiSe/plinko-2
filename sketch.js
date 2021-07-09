@@ -71,7 +71,7 @@ function draw() {
   background(bg);
   Engine.update(engine);
   textSize(20)
-  text(mouseX+","+mouseY,200,400);
+//text(mouseX+","+mouseY,200,400);
   
  text("Score : "+score,20,30);
  for (var j = 40; j <300; j=j+80) 
