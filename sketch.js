@@ -128,7 +128,7 @@ particles = null
    }
 }
 
-function mousePressed(){
+function mouseClicked(){
 
   
     particles = new Particle(mouseX,0,10)
