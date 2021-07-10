@@ -52,29 +52,7 @@ function setup() {
        plinkos.push(new Plinko(j,375));
     }
    
-   
-   
-    
-}
-
-
-
-
-
-
-  
-
-
-
-
-function draw() {
-  background(bg);
-  Engine.update(engine);
-  textSize(20)
-//text(mouseX+","+mouseY,200,400);
-  
- text("Score : "+score,20,30);
- for (var j = 40; j <300; j=j+80) 
+    for (var j = 40; j <300; j=j+80) 
     {
     
      var numer5 = createSprite(j,600);
@@ -96,6 +74,28 @@ function draw() {
       numer2.scale = 0.05
     }
  
+   
+    
+}
+
+
+
+
+
+
+  
+
+
+
+
+function draw() {
+  background(bg);
+  Engine.update(engine);
+  textSize(20)
+//text(mouseX+","+mouseY,200,400);
+  
+ text("Score : "+score,20,30);
+
  
  
     drawSprites();
